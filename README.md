@@ -6,14 +6,17 @@ Use this repository for your Breaking the Code files.
 The files here are to start you off.
 
 ## VowelsConsonants.py 
- INSTRUCTIONS
+
+INSTRUCTIONS
 
 Improve the VowelsConsonants program to show the vowels
 consonants and other characters in a separate line instead
 of including other characters with the consonants.
 
 ## LetterToNumber.py 
+
 INSTRUCTIONS
+
 Your task is to write a program in Python that:
 
 1) Asks the user to type in a letter
