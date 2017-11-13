@@ -6,10 +6,9 @@ Use this repository for your Breaking the Code files.
 THe files here are to start you off.
 
 ## VowelsConsonants.py 
-## INSTRUCTIONS
+ INSTRUCTIONS
 
-##############################################################
-# Improve the VowelsConsonants program to show the vowels
-# consonants and other characters in a separate line instead
-# of including other characters with the consonants.
-##############################################################
+Improve the VowelsConsonants program to show the vowels
+consonants and other characters in a separate line instead
+of including other characters with the consonants.
+
