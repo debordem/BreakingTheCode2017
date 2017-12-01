@@ -19,7 +19,6 @@ vowels="AEIOUaeiou"
 
 displayVowels=""
 displayConsonants=""
-
 displaySymbols=""
 displayNumbers=""
 
@@ -39,7 +38,6 @@ for letter in userInput:
     # The rest are symbols
     else:
         displaySymbols = displaySymbols + letter
-
 
 
 print("Vowels: " + displayVowels)
