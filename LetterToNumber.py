@@ -13,38 +13,3 @@
 ##############################################################
 
 
-# Create a variable with all the letters in the alphabet
-alphabet="abcdefghijklmnopqrstuvwxyz"
-
-# Ask the user to type in a letter
-word=input("Please type a word: ")
-
-# Ask the user to type in key
-key=input("Please type a key: ")
-
-print("The word is %s" % word)
-# Find the position of the letter in the alphabet
-#pos=alphabet.find(letter)
-
-
-for letter in word:
-
-    # TEST IF UPPERCASE
-    if letter.isupper():
-        print("upper case")
-        letter = letter.lower()
-
-    pos=alphabet.find(letter)
-
-    # As the first position is 0, we need to add 1
-    pos += 1
-
-    #display the number back to the user
-    print(pos)
-
-    #encode
-    pos = pos - int(key)
-
-    print("new pos = %s" % pos)
-
-    print("new letter = %s" % alphabet[pos])

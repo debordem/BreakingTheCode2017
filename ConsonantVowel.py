@@ -11,36 +11,17 @@
 # of including other characters with the consonants.
 ##############################################################
 
-
-
 userInput = input("Enter your sentence: ")
 vowels="AEIOUaeiou"
 
-
 displayVowels=""
 displayConsonants=""
-displaySymbols=""
-displayNumbers=""
 
 for letter in userInput:
-    # Take out the vowels
     if letter in vowels:
         displayVowels = displayVowels + letter
-
-    # Take out the numbers
-    elif letter.isdigit():
-        displayNumbers = displayNumbers + letter
-
-    # Take out the any other alphanumeric characters
-    elif letter.isalnum():
-        displayConsonants = displayConsonants + letter
-
-    # The rest are symbols
     else:
-        displaySymbols = displaySymbols + letter
+        displayConsonants = displayConsonants + letter
 
 
 print("Vowels: " + displayVowels)
-print("Consonants: " + displayConsonants)
-print("Symbols: " + displaySymbols)
-print("Numbers: " + displayNumbers)
